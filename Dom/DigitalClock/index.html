@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-color: grey;
+    }
+    #container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #clk {
+      height: 50px;
+      width: 200px;
+      background-color: orange;
+      margin-top: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      box-shadow: 10px 10px lightblue;
+    }
+    span {
+      color: white;
+      justify-content: center;
+      align-items: center;
+      font-size: 33px;
+      padding: 8px;
+    }
+  </style>
+  <body>
+    <div id="container">
+      <div id="clk">
+        <span id="localClock"></span>
+      </div>
+    </div>
+  </body>
+  <script>
+    const time = document.getElementById("localClock");
+
+    setInterval(() => {
+      let date = new Date();
+      time.innerHTML = date.toLocaleTimeString();
+    }, 1000);
+  </script>
+</html>
