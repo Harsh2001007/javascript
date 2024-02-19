@@ -12,3 +12,15 @@ body {
 .container {
   margin-top: 36px;
 }
+input {
+  margin-left: 12px;
+}
+form {
+  justify-content: center;
+  align-items: center;
+  border: 2px solid yellow;
+  padding: 24px;
+}
+button {
+  margin-left: 30%;
+}
