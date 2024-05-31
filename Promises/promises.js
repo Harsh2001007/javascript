@@ -29,7 +29,7 @@
 //   console.log(user);
 // });
 
-const promiseFour = new Promise((resolve, reject) => {
+const promiseFourthItem = new Promise((resolve, reject) => {
   setTimeout(() => {
     let error = true;
     if (!error) {
