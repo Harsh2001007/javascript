@@ -1,5 +1,5 @@
-const nameOfPerson = "harsh";
-let nameOfcity = "noida";
+const nameOfPersonone = "harsh";
+let nameOfcityone = "noida";
 
 // console.table([nameOfPerson, nameOfcity]);
 
