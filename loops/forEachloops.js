@@ -4,7 +4,7 @@ const coding = ["js", "ruby", "java", "python", "cpp"];
 //   console.log(item);
 // });
 
-const myCoding = [
+const myCodingArr = [
   {
     languageName: "javascript",
     languageFileName: "js",
