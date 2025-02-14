@@ -18,7 +18,7 @@ function totalCartPrice(...price1) {
 
 // totalCartPrice(300, 500, 700, 1000);
 
-const arrToBePassed = [100, 200, 300, 400, 500,600];
+const arrToBePassed = [100, 200, 800, 400, 500,600];
 function getSecondElement(arrName) {
   console.log(arrName[1]);
 }
